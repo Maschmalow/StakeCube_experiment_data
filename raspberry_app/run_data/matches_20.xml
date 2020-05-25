@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="17">
+<message class_id="0" tracking_level="1" version="0" object_id="_0">
+	<count>0</count>
+	<item_version>0</item_version>
+</message>
+</boost_serialization>
+
