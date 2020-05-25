@@ -1,0 +1,667 @@
+sc5 finished command sudo rm -rf ${DATA_DIR=/data}/* with status 0
+sc4 finished command sudo rm -rf ${DATA_DIR=/data}/* with status 0
+sc3 finished command sudo rm -rf ${DATA_DIR=/data}/* with status 0
+sc2 finished command sudo rm -rf ${DATA_DIR=/data}/* with status 0
+create master at address 192.168.208.108. Port is implicit (9494).
+create slave 0
+create slave 1
+create slave 2
+create slave 3
+create slave 4
+create slave 5
+create slave 6
+create slave 7
+create slave 8
+create slave 9
+create slave 10
+create slave 11
+create slave 12
+create slave 13
+create slave 14
+create slave 15
+create slave 16
+create slave 17
+create slave 18
+create slave 19
+create slave 20
+create slave 21
+create slave 22
+create slave 23
+create slave 24
+create slave 25
+create slave 26
+create slave 27
+create slave 28
+create slave 29
+create slave 30
+create slave 31
+create slave 32
+create slave 33
+create slave 34
+create slave 35
+create slave 36
+create slave 37
+create slave 38
+create slave 39
+create slave 40
+create slave 41
+create slave 42
+create slave 43
+create slave 44
+create slave 45
+create slave 46
+create slave 47
+create slave 48
+create slave 49
+create slave 50
+create slave 51
+create slave 52
+create slave 53
+create slave 54
+create slave 55
+create slave 56
+create slave 57
+create slave 58
+create slave 59
+create slave 60
+create slave 61
+create slave 62
+create slave 63
+create slave 64
+create slave 65
+create slave 66
+create slave 67
+create slave 68
+create slave 69
+create slave 70
+create slave 71
+create slave 72
+create slave 73
+create slave 74
+create slave 75
+create slave 76
+create slave 77
+create slave 78
+create slave 79
+create slave 80
+create slave 81
+create slave 82
+create slave 83
+create slave 84
+create slave 85
+create slave 86
+create slave 87
+create slave 88
+create slave 89
+create slave 90
+create slave 91
+create slave 92
+create slave 93
+create slave 94
+create slave 95
+create slave 96
+create slave 97
+create slave 98
+create slave 99
+create slave 100
+create slave 101
+create slave 102
+create slave 103
+create slave 104
+create slave 105
+create slave 106
+create slave 107
+create slave 108
+create slave 109
+create slave 110
+create slave 111
+create slave 112
+create slave 113
+create slave 114
+create slave 115
+create slave 116
+create slave 117
+create slave 118
+create slave 119
+create slave 120
+create slave 121
+create slave 122
+create slave 123
+create slave 124
+create slave 125
+create slave 126
+create slave 127
+create slave 128
+create slave 129
+create slave 130
+create slave 131
+create slave 132
+create slave 133
+create slave 134
+create slave 135
+create slave 136
+create slave 137
+create slave 138
+create slave 139
+create slave 140
+create slave 141
+create slave 142
+create slave 143
+create slave 144
+create slave 145
+create slave 146
+create slave 147
+create slave 148
+create slave 149
+create slave 150
+create slave 151
+create slave 152
+create slave 153
+create slave 154
+create slave 155
+create slave 156
+create slave 157
+create slave 158
+create slave 159
+create slave 160
+create slave 161
+create slave 162
+create slave 163
+create slave 164
+create slave 165
+create slave 166
+create slave 167
+create slave 168
+create slave 169
+create slave 170
+create slave 171
+create slave 172
+create slave 173
+create slave 174
+create slave 175
+create slave 176
+create slave 177
+create slave 178
+create slave 179
+create slave 180
+create slave 181
+create slave 182
+create slave 183
+create slave 184
+create slave 185
+create slave 186
+create slave 187
+create slave 188
+create slave 189
+create slave 190
+create slave 191
+create slave 192
+create slave 193
+create slave 194
+create slave 195
+create slave 196
+create slave 197
+create slave 198
+create slave 199
+create slave 200
+create slave 201
+create slave 202
+create slave 203
+create slave 204
+create slave 205
+create slave 206
+create slave 207
+create slave 208
+create slave 209
+create slave 210
+create slave 211
+create slave 212
+create slave 213
+create slave 214
+create slave 215
+create slave 216
+create slave 217
+create slave 218
+create slave 219
+create slave 220
+create slave 221
+create slave 222
+create slave 223
+create slave 224
+create slave 225
+create slave 226
+create slave 227
+create slave 228
+create slave 229
+create slave 230
+create slave 231
+create slave 232
+create slave 233
+create slave 234
+create slave 235
+create slave 236
+create slave 237
+create slave 238
+create slave 239
+create slave 240
+create slave 241
+create slave 242
+create slave 243
+create slave 244
+create slave 245
+create slave 246
+create slave 247
+create slave 248
+create slave 249
+create slave 250
+create slave 251
+create slave 252
+create slave 253
+create slave 254
+create slave 255
+create slave 256
+create slave 257
+create slave 258
+create slave 259
+create slave 260
+create slave 261
+create slave 262
+create slave 263
+create slave 264
+create slave 265
+create slave 266
+create slave 267
+create slave 268
+create slave 269
+create slave 270
+create slave 271
+create slave 272
+create slave 273
+create slave 274
+create slave 275
+create slave 276
+create slave 277
+create slave 278
+create slave 279
+create slave 280
+create slave 281
+create slave 282
+create slave 283
+create slave 284
+create slave 285
+create slave 286
+create slave 287
+create slave 288
+create slave 289
+create slave 290
+create slave 291
+create slave 292
+create slave 293
+create slave 294
+create slave 295
+create slave 296
+create slave 297
+create slave 298
+create slave 299
+create slave 300
+create slave 301
+create slave 302
+create slave 303
+create slave 304
+create slave 305
+create slave 306
+create slave 307
+create slave 308
+create slave 309
+create slave 310
+create slave 311
+create slave 312
+create slave 313
+create slave 314
+create slave 315
+create slave 316
+create slave 317
+create slave 318
+create slave 319
+sc5 finished command ./runner.py slaves --nodesCount 320 --masterAddr 192.168.208.108 with status 0
+sc4 finished command ./runner.py slaves --nodesCount 320 --masterAddr 192.168.208.108 with status 0
+sc3 finished command ./runner.py slaves --nodesCount 320 --masterAddr 192.168.208.108 with status 0
+sc2 finished command ./runner.py slaves --nodesCount 320 --masterAddr 192.168.208.108 with status 0
+sc4 finished command timeout 36000 sh -c 'while [ $(ls -l ${DATA_DIR=/data}/*/blocks/metadata_10.xml | wc -l) -eq 0 ] || [ $(ls -l ${DATA_DIR=/data}/*/blocks/metadata_10.xml | wc -l) -ne $(ls -l ${DATA_DIR=/data}/*/blocks/metadata_25.xml | wc -l) ]; do sleep 10; done' with status 0
+localhost finished command timeout 36000 sh -c 'while [ $(ls -l ${DATA_DIR=/data}/*/blocks/metadata_10.xml | wc -l) -eq 0 ] || [ $(ls -l ${DATA_DIR=/data}/*/blocks/metadata_10.xml | wc -l) -ne $(ls -l ${DATA_DIR=/data}/*/blocks/metadata_25.xml | wc -l) ]; do sleep 10; done' with status 0
+sc5 finished command timeout 36000 sh -c 'while [ $(ls -l ${DATA_DIR=/data}/*/blocks/metadata_10.xml | wc -l) -eq 0 ] || [ $(ls -l ${DATA_DIR=/data}/*/blocks/metadata_10.xml | wc -l) -ne $(ls -l ${DATA_DIR=/data}/*/blocks/metadata_25.xml | wc -l) ]; do sleep 10; done' with status 0
+sc3 finished command timeout 36000 sh -c 'while [ $(ls -l ${DATA_DIR=/data}/*/blocks/metadata_10.xml | wc -l) -eq 0 ] || [ $(ls -l ${DATA_DIR=/data}/*/blocks/metadata_10.xml | wc -l) -ne $(ls -l ${DATA_DIR=/data}/*/blocks/metadata_25.xml | wc -l) ]; do sleep 10; done' with status 0
+sc2 finished command timeout 36000 sh -c 'while [ $(ls -l ${DATA_DIR=/data}/*/blocks/metadata_10.xml | wc -l) -eq 0 ] || [ $(ls -l ${DATA_DIR=/data}/*/blocks/metadata_10.xml | wc -l) -ne $(ls -l ${DATA_DIR=/data}/*/blocks/metadata_25.xml | wc -l) ]; do sleep 10; done' with status 0
+remove slave_319
+remove slave_318
+remove slave_317
+remove slave_316
+remove slave_315
+remove slave_314
+remove slave_313
+remove slave_312
+remove slave_311
+remove slave_310
+remove slave_309
+remove slave_308
+remove slave_307
+remove slave_306
+remove slave_305
+remove slave_304
+remove slave_303
+remove slave_302
+remove slave_301
+remove slave_300
+remove slave_299
+remove slave_298
+remove slave_297
+remove slave_296
+remove slave_295
+remove slave_294
+remove slave_293
+remove slave_292
+remove slave_291
+remove slave_290
+remove slave_289
+remove slave_288
+remove slave_287
+remove slave_286
+remove slave_285
+remove slave_284
+remove slave_283
+remove slave_282
+remove slave_281
+remove slave_280
+remove slave_279
+remove slave_278
+remove slave_277
+remove slave_276
+remove slave_275
+remove slave_274
+remove slave_273
+remove slave_272
+remove slave_271
+remove slave_270
+remove slave_269
+remove slave_268
+remove slave_267
+remove slave_266
+remove slave_265
+remove slave_264
+remove slave_263
+remove slave_262
+remove slave_261
+remove slave_260
+remove slave_259
+remove slave_258
+remove slave_257
+remove slave_256
+remove slave_255
+remove slave_254
+remove slave_253
+remove slave_252
+remove slave_251
+remove slave_250
+remove slave_249
+remove slave_248
+remove slave_247
+remove slave_246
+remove slave_245
+remove slave_244
+remove slave_243
+remove slave_242
+remove slave_241
+remove slave_240
+remove slave_239
+remove slave_238
+remove slave_237
+remove slave_236
+remove slave_235
+remove slave_234
+remove slave_233
+remove slave_232
+remove slave_231
+remove slave_230
+remove slave_229
+remove slave_228
+remove slave_227
+remove slave_226
+remove slave_225
+remove slave_224
+remove slave_223
+remove slave_222
+remove slave_221
+remove slave_220
+remove slave_219
+remove slave_218
+remove slave_217
+remove slave_216
+remove slave_215
+remove slave_214
+remove slave_213
+remove slave_212
+remove slave_211
+remove slave_210
+remove slave_209
+remove slave_208
+remove slave_207
+remove slave_206
+remove slave_205
+remove slave_204
+remove slave_203
+remove slave_202
+remove slave_201
+remove slave_200
+remove slave_199
+remove slave_198
+remove slave_197
+remove slave_196
+remove slave_195
+remove slave_194
+remove slave_193
+remove slave_192
+remove slave_191
+remove slave_190
+remove slave_189
+remove slave_188
+remove slave_187
+remove slave_186
+remove slave_185
+remove slave_184
+remove slave_183
+remove slave_182
+remove slave_181
+remove slave_180
+remove slave_179
+remove slave_178
+remove slave_177
+remove slave_176
+remove slave_175
+remove slave_174
+remove slave_173
+remove slave_172
+remove slave_171
+remove slave_170
+remove slave_169
+remove slave_168
+remove slave_167
+remove slave_166
+remove slave_165
+remove slave_164
+remove slave_163
+remove slave_162
+remove slave_161
+remove slave_160
+remove slave_159
+remove slave_158
+remove slave_157
+remove slave_156
+remove slave_155
+remove slave_154
+remove slave_153
+remove slave_152
+remove slave_151
+remove slave_150
+remove slave_149
+remove slave_148
+remove slave_147
+remove slave_146
+remove slave_145
+remove slave_144
+remove slave_143
+remove slave_142
+remove slave_141
+remove slave_140
+remove slave_139
+remove slave_138
+remove slave_137
+remove slave_136
+remove slave_135
+remove slave_134
+remove slave_133
+remove slave_132
+remove slave_131
+remove slave_130
+remove slave_129
+remove slave_128
+remove slave_127
+remove slave_126
+remove slave_125
+remove slave_124
+remove slave_123
+remove slave_122
+remove slave_121
+remove slave_120
+remove slave_119
+remove slave_118
+remove slave_117
+remove slave_116
+remove slave_115
+remove slave_114
+remove slave_113
+remove slave_112
+remove slave_111
+remove slave_110
+remove slave_109
+remove slave_108
+remove slave_107
+remove slave_106
+remove slave_105
+remove slave_104
+remove slave_103
+remove slave_102
+remove slave_101
+remove slave_100
+remove slave_99
+remove slave_98
+remove slave_97
+remove slave_96
+remove slave_95
+remove slave_94
+remove slave_93
+remove slave_92
+remove slave_91
+remove slave_90
+remove slave_89
+remove slave_88
+remove slave_87
+remove slave_86
+remove slave_85
+remove slave_84
+remove slave_83
+remove slave_82
+remove slave_81
+remove slave_80
+remove slave_79
+remove slave_78
+remove slave_77
+remove slave_76
+remove slave_75
+remove slave_74
+remove slave_73
+remove slave_72
+remove slave_71
+remove slave_70
+remove slave_69
+remove slave_68
+remove slave_67
+remove slave_66
+remove slave_65
+remove slave_64
+remove slave_63
+remove slave_62
+remove slave_61
+remove slave_60
+remove slave_59
+remove slave_58
+remove slave_57
+remove slave_56
+remove slave_55
+remove slave_54
+remove slave_53
+remove slave_52
+remove slave_51
+remove slave_50
+remove slave_49
+remove slave_48
+remove slave_47
+remove slave_46
+remove slave_45
+remove slave_44
+remove slave_43
+remove slave_42
+remove slave_41
+remove slave_40
+remove slave_39
+remove slave_38
+sc4 finished command ./runner.py clear  with status 0
+remove slave_37
+remove slave_36
+remove slave_35
+remove slave_34
+remove slave_33
+remove slave_32
+remove slave_31
+remove slave_30
+remove slave_29
+remove slave_28
+remove slave_27
+remove slave_26
+remove slave_25
+remove slave_24
+remove slave_23
+remove slave_22
+remove slave_21
+remove slave_20
+remove slave_19
+remove slave_18
+remove slave_17
+remove slave_16
+remove slave_15
+remove slave_14
+remove slave_13
+remove slave_12
+remove slave_11
+remove slave_10
+remove slave_9
+remove slave_8
+remove slave_7
+remove slave_6
+remove slave_5
+remove slave_4
+remove slave_3
+remove slave_2
+remove slave_1
+remove slave_0
+remove master
+sc5 finished command ./runner.py clear  with status 0
+sc3 finished command ./runner.py clear  with status 0
+sc2 finished command ./runner.py clear  with status 0
+sc5 finished command ./runner.py clear -F with status 2
+sc4 finished command ./runner.py clear -F with status 2
+sc2 finished command ./runner.py clear -F with status 2
+sc3 finished command ./runner.py clear -F with status 2
+sc2 finished command rsync --exclude='*log' --exclude='*block_*' -r sc2:${DATA_DIR=/data}/* /data/sc1/../sc2 with status 0
+sc3 finished command rsync --exclude='*log' --exclude='*block_*' -r sc3:${DATA_DIR=/data}/* /data/sc1/../sc3 with status 0
+sc4 finished command rsync --exclude='*log' --exclude='*block_*' -r sc4:${DATA_DIR=/data}/* /data/sc1/../sc4 with status 0
+sc5 finished command rsync --exclude='*log' --exclude='*block_*' -r sc5:${DATA_DIR=/data}/* /data/sc1/../sc5 with status 0

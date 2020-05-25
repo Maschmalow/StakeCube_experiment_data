@@ -1,0 +1,165 @@
+Exception in thread Thread-88:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/docker/api/client.py", line 225, in _raise_for_status
+    response.raise_for_status()
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/requests/models.py", line 941, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: http+docker://localhost/v1.35/containers/28837723c6cdd1dea7c8e87c132432d4f391130d066027349c45a3c20bf11ade/kill?signal=SIGTERM
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "./runner.py", line 80, in clear_all
+    container.kill("SIGTERM")  # gracefully handled by bootstrap
+  File "/usr/local/lib/python3.6/dist-packages/docker/models/containers.py", line 246, in kill
+    return self.client.api.kill(self.id, signal=signal)
+  File "/usr/local/lib/python3.6/dist-packages/docker/utils/decorators.py", line 19, in wrapped
+    return f(self, resource_id, *args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/docker/api/container.py", line 751, in kill
+    self._raise_for_status(res)
+  File "/usr/local/lib/python3.6/dist-packages/docker/api/client.py", line 227, in _raise_for_status
+    raise create_api_error_from_http_exception(e)
+  File "/usr/local/lib/python3.6/dist-packages/docker/errors.py", line 31, in create_api_error_from_http_exception
+    raise cls(e, response=response, explanation=explanation)
+docker.errors.NotFound: 404 Client Error: Not Found ("Cannot kill container: 28837723c6cdd1dea7c8e87c132432d4f391130d066027349c45a3c20bf11ade: No such container: 28837723c6cdd1dea7c8e87c132432d4f391130d066027349c45a3c20bf11ade")
+
+sc5 finished command sudo rm -rf ${DATA_DIR=/data}/* with status 0
+sc2 finished command sudo rm -rf ${DATA_DIR=/data}/* with status 0
+sc4 finished command sudo rm -rf ${DATA_DIR=/data}/* with status 0
+sc3 finished command sudo rm -rf ${DATA_DIR=/data}/* with status 0
+sc5 finished command docker rm $(docker ps -qa) with status 1
+localhost finished command docker rm $(docker ps -qa) with status 1
+sc4 finished command docker rm $(docker ps -qa) with status 1
+sc2 finished command docker rm $(docker ps -qa) with status 1
+sc3 finished command docker rm $(docker ps -qa) with status 1
+localhost finished command sudo service docker restart with status 0
+sc5 finished command sudo service docker restart with status 0
+sc2 finished command sudo service docker restart with status 0
+sc4 finished command sudo service docker restart with status 0
+sc3 finished command sudo service docker restart with status 0
+create master at address 192.168.208.108. Port is implicit (9494).
+create slave 0
+create slave 1
+create slave 2
+create slave 3
+create slave 4
+create slave 5
+create slave 6
+create slave 7
+create slave 8
+create slave 9
+create slave 10
+create slave 11
+create slave 12
+create slave 13
+create slave 14
+create slave 15
+create slave 16
+create slave 17
+create slave 18
+create slave 19
+create slave 20
+create slave 21
+create slave 22
+create slave 23
+create slave 24
+create slave 25
+create slave 26
+create slave 27
+create slave 28
+create slave 29
+create slave 30
+create slave 31
+create slave 32
+create slave 33
+create slave 34
+create slave 35
+create slave 36
+create slave 37
+create slave 38
+create slave 39
+create slave 40
+create slave 41
+create slave 42
+create slave 43
+create slave 44
+create slave 45
+create slave 46
+create slave 47
+create slave 48
+create slave 49
+create slave 50
+create slave 51
+create slave 52
+create slave 53
+create slave 54
+create slave 55
+create slave 56
+create slave 57
+create slave 58
+create slave 59
+create slave 60
+create slave 61
+create slave 62
+create slave 63
+create slave 64
+create slave 65
+create slave 66
+create slave 67
+create slave 68
+create slave 69
+create slave 70
+create slave 71
+create slave 72
+create slave 73
+create slave 74
+create slave 75
+create slave 76
+create slave 77
+create slave 78
+create slave 79
+create slave 80
+create slave 81
+create slave 82
+create slave 83
+create slave 84
+create slave 85
+create slave 86
+create slave 87
+create slave 88
+create slave 89
+create slave 90
+create slave 91
+create slave 92
+create slave 93
+create slave 94
+create slave 95
+create slave 96
+create slave 97
+create slave 98
+create slave 99
+sc5 finished command ./runner.py slaves --nodesCount 100 --masterAddr 192.168.208.108 with status 0
+sc4 finished command ./runner.py slaves --nodesCount 100 --masterAddr 192.168.208.108 with status 0
+sc3 finished command ./runner.py slaves --nodesCount 100 --masterAddr 192.168.208.108 with status 0
+sc2 finished command ./runner.py slaves --nodesCount 100 --masterAddr 192.168.208.108 with status 0
+sc3 finished command timeout 16000 sh -c 'while [ $(ls -l ${DATA_DIR=/data}/*/blocks/metadata_10.xml | wc -l) -eq 0 ] || [ $(ls -l ${DATA_DIR=/data}/*/blocks/metadata_10.xml | wc -l) -ne $(ls -l ${DATA_DIR=/data}/*/blocks/metadata_25.xml | wc -l) ]; do sleep 10; done' with status 0
+sc5 finished command timeout 16000 sh -c 'while [ $(ls -l ${DATA_DIR=/data}/*/blocks/metadata_10.xml | wc -l) -eq 0 ] || [ $(ls -l ${DATA_DIR=/data}/*/blocks/metadata_10.xml | wc -l) -ne $(ls -l ${DATA_DIR=/data}/*/blocks/metadata_25.xml | wc -l) ]; do sleep 10; done' with status 0
+localhost finished command timeout 16000 sh -c 'while [ $(ls -l ${DATA_DIR=/data}/*/blocks/metadata_10.xml | wc -l) -eq 0 ] || [ $(ls -l ${DATA_DIR=/data}/*/blocks/metadata_10.xml | wc -l) -ne $(ls -l ${DATA_DIR=/data}/*/blocks/metadata_25.xml | wc -l) ]; do sleep 10; done' with status 0
+sc4 finished command timeout 16000 sh -c 'while [ $(ls -l ${DATA_DIR=/data}/*/blocks/metadata_10.xml | wc -l) -eq 0 ] || [ $(ls -l ${DATA_DIR=/data}/*/blocks/metadata_10.xml | wc -l) -ne $(ls -l ${DATA_DIR=/data}/*/blocks/metadata_25.xml | wc -l) ]; do sleep 10; done' with status 0
+sc2 finished command timeout 16000 sh -c 'while [ $(ls -l ${DATA_DIR=/data}/*/blocks/metadata_10.xml | wc -l) -eq 0 ] || [ $(ls -l ${DATA_DIR=/data}/*/blocks/metadata_10.xml | wc -l) -ne $(ls -l ${DATA_DIR=/data}/*/blocks/metadata_25.xml | wc -l) ]; do sleep 10; done' with status 0
+sc5 finished command ./runner.py clear  with status 1
+sc4 finished command ./runner.py clear  with status 1
+sc2 finished command ./runner.py clear  with status 1
+sc3 finished command ./runner.py clear  with status 1
+sc5 finished command ./runner.py clear -F with status 2
+sc4 finished command ./runner.py clear -F with status 2
+sc2 finished command ./runner.py clear -F with status 2
+sc3 finished command ./runner.py clear -F with status 2
+sc2 finished command rsync --exclude='*log' --exclude='*block_*' -r sc2:${DATA_DIR=/data}/* /data/sc1/../sc2 with status 0
+sc3 finished command rsync --exclude='*log' --exclude='*block_*' -r sc3:${DATA_DIR=/data}/* /data/sc1/../sc3 with status 0
+sc4 finished command rsync --exclude='*log' --exclude='*block_*' -r sc4:${DATA_DIR=/data}/* /data/sc1/../sc4 with status 0
+sc5 finished command rsync --exclude='*log' --exclude='*block_*' -r sc5:${DATA_DIR=/data}/* /data/sc1/../sc5 with status 0
