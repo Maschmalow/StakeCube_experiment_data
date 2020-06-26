@@ -1,0 +1,9 @@
+{
+  "name": "parameters",
+  "t_time": 10,
+  "core_f": 7,
+  "n_peer": 1000,
+  "max_mal_shards": 7,
+  "shard_size": 22,
+  "max_tx_p_block": 2000
+}
